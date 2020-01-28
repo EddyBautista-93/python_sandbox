@@ -13,3 +13,7 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+x = 1  # int  
+y = 2.5 # float
+name = 'quotes don't matter!' 
+isCool = True #Uppercase True or False equals to bool but lowercase is string
