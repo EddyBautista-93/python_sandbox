@@ -13,7 +13,18 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
-x = 1  # int  
-y = 2.5 # float
-name = 'quotes don't matter!' 
-isCool = True #Uppercase True or False equals to bool but lowercase is string
+
+# x = 1  # int  
+# y = 2.5 # float
+# name = 'quotes don't matter!' 
+# isCool = True #Uppercase True or False equals to bool but lowercase is string
+
+#Multple assigngment 
+x, y, name, is_cool = (1,2.5,'Quotes don\'t matter', True)
+
+# print(x, y, name, is_cool);
+# print(type(x))
+
+#   Casting
+x = str(x)
+print(type(x))
